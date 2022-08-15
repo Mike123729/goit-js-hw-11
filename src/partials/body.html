@@ -1,0 +1,22 @@
+ <form class="search-form" id="search-form">
+      <input
+        class="search-input"
+        type="text"
+        name="searchQuery"
+        autocomplete="off"
+        placeholder="Search images..."
+      />
+      <button class="search-btn" type="submit">
+        <svg width="16" height="16" aria-label="Поиск">
+          <use class="search" href="./images/icons.svg#search">
+        </svg>
+      </button>
+    </form>
+    <div class="container">
+      <!-- Gallery card -->
+      <div class="gallery"></div>
+      <!-- Button Load-more -->
+      <button type="button" class="load-more is-hidden">Load more</button>
+    </div>
+    <!-- Script -->
+    <script type="module" src="./index.js"></script>
